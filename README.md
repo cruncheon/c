@@ -19,7 +19,7 @@ This Python script processes a CSV file containing product information, specific
 
 1. Ensure your input CSV file is in the same directory as the script.
 2. Update the `input_file` and `output_file` variables in the script if necessary.
-3. Run the script: `python3 ya-csv-cleaner.py`
+3. Run the script: `python3 ua-csv-cleaner.py`
 4. The processed data will be saved in the specified output file.
 
 ## Input File Format
