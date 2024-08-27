@@ -1,5 +1,6 @@
 import csv
 import re
+import sys
 
 def expand_size_range(size_range):
     if '～' in size_range:
@@ -53,6 +54,8 @@ def process_csv(input_file, output_file):
             previous_row = row
 
 # Usage
-input_file = 'input.csv'
-output_file = 'output.csv'
-process_csv(input_file, output_file)
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: python ua-csv-cleaner.py <input_excel_file> <output_csv_file>")
+    else:
+        process_csv(sys.argv[1], sys.argv[2])
