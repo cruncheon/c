@@ -20,8 +20,16 @@ This script processes an Excel file, expands size ranges and color combinations,
 
 `python ua-excel-cleaner.py <input_excel_file> <output_csv_file>`
 
+### 2. ua-csv-cleaner.py
 
-### 2. convert.py
+Same features as `ua-excel-cleaner.py` but for CSV files.
+
+#### Usage
+
+`python ua-csv-cleaner.py <input_csv_file> <output_csv_file>`
+
+
+### 3. convert.py
 
 This script converts an Excel file to a CSV file, performing some basic cleaning operations.
 
