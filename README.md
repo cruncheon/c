@@ -31,7 +31,7 @@ Same features as `ua-excel-cleaner.py` but for CSV files.
 
 ### 3. convert.py
 
-This script converts an Excel file to a CSV file, performing some basic cleaning operations.
+This script converts the United Athle Excel file to a CSV file, performing some basic cleaning operations.
 
 #### Features
 
