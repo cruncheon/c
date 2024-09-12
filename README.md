@@ -1,6 +1,6 @@
-# Excel and CSV Cleaner for Size and Color Processing
+# Supply Unchained - Supply Chain Data Processing
 
-This project contains Python scripts for processing Excel files and CSV files containing product information, specifically handling size ranges and multiple color entries. It's designed to expand size ranges and color combinations into individual rows, making the data more granular and easier to work with.
+This project contains Python scripts for processing Excel files and CSV files containing apparel supply chain information, specifically handling product size ranges and color entries. It's designed to expand size ranges and color combinations into individual rows, making the data more granular and easier to work with.
 
 ## Scripts
 
