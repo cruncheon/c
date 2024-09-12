@@ -6,7 +6,7 @@ This project contains Python scripts for processing Excel files and CSV files co
 
 ### 1. ua-excel-cleaner.py
 
-This script processes an Excel file, expands size ranges and color combinations, and outputs a CSV file.
+This script processes the Excel file provided by United Athle, expanding size ranges and color combinations, and outputs a CSV file.
 
 #### Features
 
@@ -39,6 +39,10 @@ This script converts an Excel file to a CSV file, performing some basic cleaning
 - Removes the first column
 - Sets the first row as the header
 - Cleans whitespace from headers
+
+### 4. truss-csv-cleaner.py
+
+Similar to `ua-csv-cleaner.py` but for data provided by TRUSS.
 
 #### Usage
 
